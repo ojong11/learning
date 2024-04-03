@@ -1,0 +1,31 @@
+how to create a docker image
+
+create a dicrectory 
+     example: Dockerfile
+ then navigate into that directory
+       example: cd Dockerfile
+ create file example: touch or vi Dockerfile
+      you will be promted to write an image.
+
+ please move to you dockerhub account  and check the image if it is existing or maybe you have created an image whatever the case maybe.
+ 
+ FROM is the base image
+ COPY in this case referes to where the image is going to be copied 
+ 
+ FROM nginx
+ COPY index.html /usr/share/nginx/html/index.html
+
+ save and quit that file
+ point to be noted make sure you are creating the file in the directory you created.
+
+ make a simple file since we already stated it above so touch a file in that same directory example:touch or vi index.html you can write anything if you wish 
+
+ move to you dockerhub and get the repo you created example:repoNama/application
+
+now copy it out and run the command : docker build -t repoName/application:tagName...... which means docker build -t repoName/application:latest or v2 and then hit enter to start creating image. 
+
+when it is done run "docker images" to see if it created 
+note that this image will not be present in ur remote repo
+
+now you have to push it to ur remote repo example: docker push repoName/application/latest or v2 the hit enter.
+ 
