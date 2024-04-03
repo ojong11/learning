@@ -1,0 +1,11 @@
+$ git push origin master:master
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (18/18), 17.37 KiB | 808.00 KiB/s, done.
+Total 18 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/ojong11/learning.git
+   e9f4bbe..4733dd9  master -> master
+
