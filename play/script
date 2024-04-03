@@ -1,0 +1,24 @@
+Please you are not allowed to access this file.
+These bashshell script will ask for a users name and password.
+Create users and groups.
+change users names
+
+#!/bash/bin
+
+echo enter a userName
+sudo useradd Hari
+echo you have been added to the managers group.
+sudo groupadd Managers
+$$
+#If you get here congratulations we moving forwards
+sudo -su 198099
+read $pin -s
+
+if $[$(sudo cat/etc/passwd) 198099] 
+then 
+echo password connected successfully
+
+i am loving trouble shooting already
+
+writing by HARI
+ 

@@ -1,0 +1,125 @@
+Certainly! Here's a comprehensive list of Docker CLI (Command Line Interface) commands categorized into beginner and advanced levels:
+
+Beginner Docker CLI Commands:
+docker run: Start a new container from a Docker image.
+
+css
+Copy code
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+docker ps: List running containers.
+
+css
+Copy code
+docker ps [OPTIONS]
+docker images: List Docker images.
+
+css
+Copy code
+docker images [OPTIONS] [REPOSITORY[:TAG]]
+docker pull: Pull Docker images from a registry.
+
+ruby
+Copy code
+docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+docker stop: Stop one or more running containers.
+
+css
+Copy code
+docker stop [OPTIONS] CONTAINER [CONTAINER...]
+docker rm: Remove one or more containers.
+
+css
+Copy code
+docker rm [OPTIONS] CONTAINER [CONTAINER...]
+docker rmi: Remove one or more images.
+
+css
+Copy code
+docker rmi [OPTIONS] IMAGE [IMAGE...]
+docker exec: Run a command in a running container.
+
+css
+Copy code
+docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+docker logs: Fetch the logs of a container.
+
+css
+Copy code
+docker logs [OPTIONS] CONTAINER
+docker inspect: Display detailed information on one or more containers/images/networks/volumes.
+
+css
+Copy code
+docker inspect [OPTIONS] NAME|ID [NAME|ID...]
+docker build: Build an image from a Dockerfile.
+
+css
+Copy code
+docker build [OPTIONS] PATH | URL | -
+docker-compose up: Start services defined in a docker-compose.yml.
+
+css
+Copy code
+docker-compose up [options] [SERVICE...]
+Advanced Docker CLI Commands:
+docker network: Manage Docker networks.
+
+css
+Copy code
+docker network [OPTIONS] COMMAND
+docker volume: Manage Docker volumes.
+
+css
+Copy code
+docker volume [OPTIONS] COMMAND
+docker system: Manage Docker.
+
+css
+Copy code
+docker system [OPTIONS] COMMAND
+docker info: Display system-wide information.
+
+css
+Copy code
+docker info [OPTIONS]
+docker container stats: Display a live stream of container resource usage statistics.
+
+css
+Copy code
+docker container stats [OPTIONS] [CONTAINER...]
+docker events: Get real-time events from the server.
+
+css
+Copy code
+docker events [OPTIONS]
+docker save: Save one or more images to a tar archive (streamed to STDOUT by default).
+
+css
+Copy code
+docker save [OPTIONS] IMAGE [IMAGE...]
+docker load: Load an image from a tar archive or STDIN.
+
+css
+Copy code
+docker load [OPTIONS]
+docker system prune: Remove unused data.
+
+css
+Copy code
+docker system prune [OPTIONS]
+docker swarm: Manage Docker swarms.
+
+css
+Copy code
+docker swarm [OPTIONS] COMMAND
+docker stack: Manage Docker stacks (orchestration).
+
+arduino
+Copy code
+docker stack [OPTIONS] COMMAND
+docker plugin: Manage Docker plugins.
+
+css
+Copy code
+docker plugin [OPTIONS] COMMAND
+These commands provide a foundation for both beginners and advanced users to work with Docker containers, images, networks, volumes, and other Docker-related components. As you become more familiar with Docker, you'll likely find these commands essential for managing your Dockerized applications and infrastructure.
